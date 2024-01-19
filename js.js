@@ -12,7 +12,7 @@
 
       // Calculate total marks
       const totalMarks = subject1 + subject2 + subject3 + subject4 + subject5 + subject6 + subject7;
-      const percentage = (totalMarks* / 7);
+      const percentage = (totalMarks* 100/ 175);
 
       // Determine the grade
       let grade;
