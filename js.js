@@ -16,13 +16,13 @@
 
       // Determine the grade
       let grade;
-      if (totalMarks >= 90) {
+      if (totalMarks >= 165) {
         grade = 'A';
-      } else if (totalMarks >= 80) {
+      } else if (totalMarks >= 150) {
         grade = 'B';
-      } else if (totalMarks >= 70) {
+      } else if (totalMarks >= 140) {
         grade = 'C';
-      } else if (totalMarks >= 60) {
+      } else if (totalMarks >= 130) {
         grade = 'D';
       } else {
         grade = 'F';
