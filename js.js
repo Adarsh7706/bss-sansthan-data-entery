@@ -16,7 +16,7 @@
 
       // Determine the grade
       let grade;
-      if (totalMarks >= 175) {
+      if (totalMarks >= 170) {
         grade = 'A+';
       } else if (totalMarks >= 160) {
         grade = 'A';
