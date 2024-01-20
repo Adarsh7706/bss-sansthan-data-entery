@@ -47,7 +47,7 @@ obj[c++]=totalMarks
  
  
  let box = document.createElement("div")
- box.innerHTML = `Student ${d++}: ${studentName} | Total Marks: ${totalMarks} | Grade: ${grade} | Percentage: ${percentage}<hr style="width:50%;"
+ box.innerHTML = `Student ${d++}: ${studentName} | Total Marks: ${totalMarks} | Grade: ${grade} | Percentage: ${percentage}<hr style="width:50%;">
  
  `
  let con = document.getElementById("result")
