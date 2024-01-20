@@ -16,7 +16,8 @@ function calculateGrades() {
  const subject7 = parseFloat(document.getElementById('subject7').value);
 
  // Calculate total marks
-  totalMarks = subject1 + subject2 + subject3 + subject4 + subject5 + subject6 + subject7;
+  const totalMarks = subject1 + subject2 + subject3 + subject4 + subject5 + subject6 + subject7;
+  const percentage = (totalMarks*100/175).toFixed(2);
 
  // Determine the grade
  let grade;
@@ -46,7 +47,7 @@ obj[c++]=totalMarks
  
  
  let box = document.createElement("div")
- box.innerHTML = `Student ${d++}: ${studentName} | Total Marks: ${totalMarks} | Grade: ${grade} 
+ box.innerHTML = `Student ${d++}: ${studentName} | Total Marks: ${totalMarks} | Grade: ${grade} | Percentage: ${percentage}<hr style="width:50%;"
  
  `
  let con = document.getElementById("result")
