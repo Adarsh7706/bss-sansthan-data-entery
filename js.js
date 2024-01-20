@@ -16,16 +16,18 @@
 
       // Determine the grade
       let grade;
-      if (totalMarks >= 165) {
+      if (totalMarks >= 175) {
         grade = 'A+';
-      } else if (totalMarks >= 150) {
+      } else if (totalMarks >= 160) {
         grade = 'A';
-      } else if (totalMarks >= 140) {
+      } else if (totalMarks >= 150) {
         grade = 'B';
-      } else if (totalMarks >= 130) {
+      } else if (totalMarks >= 140) {
         grade = 'C';
-      } else {
+      }else if (totalMarks >= 130) {
         grade = 'D';
+      else {
+        grade = 'E';
       }
       let box = document.createElement("div")
       box.innerHTML = `Student: ${studentName} | Total Marks: ${totalMarks} | Grade: ${grade} | Percentage:${percentage}<hr style="width:50%;">`
