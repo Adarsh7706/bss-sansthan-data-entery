@@ -26,6 +26,7 @@
         grade = 'C';
       }else if (totalMarks >= 130) {
         grade = 'D';
+      }
       else {
         grade = 'E';
       }
